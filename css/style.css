@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header{
+  background: #635854;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 4px solid #3596F5;
+}
+
+.navbar{
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu{
+  list-style: none; /*отключаем точки*/
+  display: flex;
+  text-align: center;
+}
+
+.navbar-item{
+  margin-left: 40px;
+  margin-right: 40px;
+    
+}
+
+
+.navbar-list{
+  width: 114px;
+  height: auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-contacts{
+  text-align: right;
+
+}
+
+.navbar-text{
+  display: block;
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.navbar-tel{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
